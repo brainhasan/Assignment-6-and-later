@@ -1,4 +1,4 @@
-hname: assignment-test
+name: assignment-test
 on:
     push:
         tags-ignore:
@@ -11,7 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
           - uses: actions/checkout@v2
-          - name: Checkout submodules
-            run : git submodule update --init --recursive
           - name: Run full test
             run: echo "HI"
