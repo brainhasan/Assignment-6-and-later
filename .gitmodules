@@ -1,6 +1,6 @@
 [submodule "assignment-autotest"]
     path = assignment-autotest
-    url = https://github.com/cu-ecen-aeld/aesd-assignments.git
+	url = https://github.com/cu-ecen-aeld/assignment-autotest.git
     branch = assignment6
 [submodule "poky"]
     path = poky
